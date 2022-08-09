@@ -152,7 +152,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &313240420
 Transform:
@@ -182,6 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 389bc292dd0e2844ca0198b326484a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliceForce: 25
   minSliceVelocity: 0.01
 --- !u!1 &354909139
 GameObject:
